@@ -1,0 +1,12 @@
+{
+  "resources/scripts/scripts.js": {
+    "file": "d3ae0097.js",
+    "isEntry": true,
+    "src": "resources/scripts/scripts.js"
+  },
+  "resources/styles/styles.scss": {
+    "file": "19902f75.css",
+    "isEntry": true,
+    "src": "resources/styles/styles.scss"
+  }
+}

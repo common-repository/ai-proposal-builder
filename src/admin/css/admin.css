@@ -1,0 +1,140 @@
+.bitcx_aipb_admin_area{
+    padding: 20px 50px; 
+}
+.bitcx_aipb_admin_area>h1{
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+.bitcx_aipb_main_menu{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    margin: 20px 0px;
+}
+.bitcx_aipb_menu_link{
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px 30px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 20px;
+    color:black;
+}
+.bitcx_aipb_menu_link:hover{
+    box-shadow: 5px 5px 5px  #888888;
+    background-color:#1F57C3;
+    color: white;
+}
+.bitcx_aipb_save_btn:hover{
+    background-color:#1F57C3 !important;
+    color: white !important;
+    box-shadow: 2px 2px 2px  #888888;
+}
+.bitcx_aipb_menu_icon>img{
+    width:48px;
+    height:48px;
+}
+.bitcx_aipb_menu_link:hover .portfolio_icon{
+    content:url("../images/portfolio-white.png");
+}
+.bitcx_aipb_menu_link:hover .testimonials_icon{
+    content:url("../images/testimonials-white.png");
+}
+.bitcx_aipb_menu_link:hover .cta_icon{
+    content:url("../images/megaphone-white.png");
+}
+.bitcx_aipb_api_setting{
+    text-align: center;
+    margin: 20px 30px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 20px;
+}
+.bitcx_aipb_api_setting div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.bitcx_aipb_shortcode{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 30px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 20px;
+}
+input[readonly]{
+    background-color: white;
+    text-align: center;
+    font-weight: normal !important;
+}
+input[type=password]{
+    font-weight: normal !important;
+}
+@media (min-width:702px)  and (max-width: 823px)  {
+    .bitcx_aipb_admin_area {
+        padding: 20px 30px !important;
+    }
+    input[type=password]{
+        width: 350px !important;
+    }
+    .bitcx_aipb_menu_link {
+        margin:0px 20px !important
+    }
+    .bitcx_aipb_api_setting{
+        margin: 20px 20px !important;
+    }
+    .bitcx_aipb_shortcode{
+        margin: 20px 20px !important;
+    }
+  }
+  @media (min-width:600px)  and (max-width: 701px)  {
+    .bitcx_aipb_admin_area {
+        padding: 20px 20px !important;
+    }
+    input[type=password]{
+        width: 250px !important;
+    }
+    .bitcx_aipb_menu_link {
+        margin:0px 10px !important
+    }
+    .bitcx_aipb_api_setting{
+        margin: 20px 10px !important;
+    }
+    .bitcx_aipb_shortcode{
+        margin: 20px 10px !important;
+    }
+  }
+  @media (max-width: 599px)  {
+    .bitcx_aipb_admin_area {
+        padding: 20px 5px !important;
+    }
+    input[type=password]{
+        width: 200px !important;
+    }
+    input[readonly]{
+        width: 100% !important;
+    }
+    .bitcx_aipb_menu_link {
+        margin:0px 2px !important
+    }
+    .bitcx_aipb_api_setting{
+        margin: 20px 5px !important;
+    }
+    .bitcx_aipb_shortcode{
+        margin: 20px 5px !important;
+    }
+    .bitcx_aipb_menu_link{
+        font-size: 12px !important;
+    }
+    input[type=password],input[type=submit],input[readonly] {
+        margin-top: 10px !important;
+    }
+  }

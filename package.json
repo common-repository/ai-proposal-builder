@@ -1,0 +1,35 @@
+{
+  "name": "ai-proposal-builder",
+  "version": "1.1.6",
+  "description": "AI-powered Freelance Proposal Generator plugin leverages ChatGPT to streamline the proposal creation process.",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BitcraftX-team/ai-proposal-builder.git"
+  },
+  "keywords": [
+    "Proposal",
+    "Builder",
+    "Freelance",
+    "Proposal",
+    "Proposal",
+    "Freelance",
+    "form"
+  ],
+  "author": "Bitcraftx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BitcraftX-team/ai-proposal-builder/issues"
+  },
+  "homepage": "https://github.com/BitcraftX-team/ai-proposal-builder#readme",
+  "dependencies": {
+    "jspdf": "^1.5.3",
+    "sass": "^1.72.0",
+    "swiper": "^11.0.7",
+    "vite": "^4.5.2"
+  }
+}
